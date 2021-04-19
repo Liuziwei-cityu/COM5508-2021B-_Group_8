@@ -7,7 +7,6 @@ from wordcloud import WordCloud
 import matplotlib.mlab as mlab  
 import matplotlib.pyplot as plt 
 from matplotlib.pyplot import MultipleLocator
-
 data = pd.read_csv('before.csv')
 len(data[data['Offensive']== 0] )
 len(data[data['Offensive']== 0.5] )
